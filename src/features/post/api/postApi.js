@@ -1,7 +1,7 @@
 import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 
 export const postApi = createApi({
-  reducerPath: "postsListApi",
+  reducerPath: "postApi",
   baseQuery: fetchBaseQuery({
     baseUrl: `https://jsonplaceholder.typicode.com`,
   }),

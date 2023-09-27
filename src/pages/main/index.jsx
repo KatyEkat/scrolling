@@ -1,4 +1,4 @@
-import { PostList } from "../../features/postList/ui";
+import { PostList } from "../../features/postList";
 import styles from "./index.module.css";
 
 export const Main = () => {
